@@ -1,6 +1,5 @@
 import speech_recognition as sr
 import pyttsx3
-import pywhatkit
 from playsound import playsound
 import wikipedia
 import pyjokes
@@ -15,6 +14,7 @@ def talk(text):
         engine.say(text)
         engine.runAndWait()
 def main():
+       
        
     def song(command):
         song=command.replace('play ','')
