@@ -2,7 +2,7 @@ import requests
 import streamlit as st
 from streamlit_option_menu import option_menu   
 import gt
-st.set_page_config(page_title="Zira",page_icon="/home/sivayogan/Pictures/Screenshots/logo.png",layout="wide")
+st.set_page_config(page_title="Zira",layout="wide")#page_icon="/home/sivayogan/Pictures/Screenshots/logo.png"
 
 m=st.markdown("""
 <style>
@@ -29,12 +29,11 @@ def load_lottie(url):
 animation=load_lottie("https://assets1.lottiefiles.com/packages/lf20_ofa3xwo7.json")
 def add():
     st.write(10+20)
-st.image("/home/sivayogan/Pictures/Screenshots/jira.png")
+# st.image("/home/sivayogan/Pictures/Screenshots/jira.png")
 
 st.sidebar.header('huawei apps store：')
 st.sidebar.subheader('1.please chose which app you want to operate')
-# st.header(st.image("/home/sivayogan/Pictures/Screenshots/jira.png"))
-st.sidebar.image("/home/sivayogan/Pictures/Screenshots/jira.png")
+# st.sidebar.image("/home/sivayogan/Pictures/Screenshots/jira.png")
 
 
 with st.sidebar:
